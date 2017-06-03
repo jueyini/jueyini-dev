@@ -1,0 +1,30 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+.nav{  
+  float:left;
+  width:250px;
+  height:auto;
+  border:1px solid black;
+}
+.nav ul{          
+  list-style: none;
+  padding-left:20px;
+}
+main{
+  width:auto;
+  margin:0px 0px;
+  border:1px solid black;
+  float:left;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>인덱스 자동 생성기</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav"></nav>
+        </header>
+        <main>
+            <div>
+            사이드바의 인덱스는 본문의 헤딩을 참조하여 자동 생성 합니다.
+            </div>
+            <article class="content">
+                <h1>대제목1</h1>
+                    <h2>소제목1</h2>
+                    <h2>소제목1</h2>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                <h1>대제목2</h1>
+                    <h2>소제목1</h2>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                        <!--표준에 따라 H6까지만 지원합니다.-->
+                        <h11>소제목11</h11>
+                        <h11>소제목11</h11>
+                    <h2>소제목1</h2>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                        <h3>소제목3</h3>
+                <h1>대제목3</h1>
+                    <h2>소제목1</h2>
+                    <h2>소제목1</h2>
+                <h1>대제목4</h1>
+            </article>
+        </main>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="indexGenerator.js"></script>
+    </body>
+
+</html>
