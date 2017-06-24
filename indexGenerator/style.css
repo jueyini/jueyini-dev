@@ -12,19 +12,31 @@ section,
 summary {
   display: block;
 }
-.nav{  
-  float:left;
+.navigation{  
+  position:fixed;
   width:250px;
   height:auto;
   border:1px solid black;
 }
-.nav ul{          
+.navigation ul{          
   list-style: none;
   padding-left:20px;
 }
+
+
+.navigation .nav > li > a {
+  padding:0px !important;margin:0px !important;
+}
+.navigation .nav > .active > a,
+.navigation .nav > .active:hover > a,
+.navigation .nav > .active:focus > a {
+  color:red;
+  
+}
+
 main{
-  width:auto;
+  width:auto;  
+  padding-left:250px; 
   margin:0px 0px;
   border:1px solid black;
-  float:left;
 }
